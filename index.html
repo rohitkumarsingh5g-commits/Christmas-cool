@@ -136,7 +136,7 @@ button:hover{
 <script>  
 function shareWhatsApp(){  
   const name=document.getElementById('name').value.trim()||'आपके दोस्त';  
-  const msg=`🎄 Merry Christmas! 🎅\n${name} की ओर से ढेरों शुभकामनाएँ ❤️\n✨ आपका दिन खुशियों से भरा रहे!`;  
+  const msg=`🎄 Merry Christmas! 🎅\n${name} की ओर से ढेरों शुभकामनाएँ ❤️\n✨ आपका दिन खुशियों से भरा रहे!\n👉 देखें: https://christmas-cool.vercel.app/`;  
   const url=`https://wa.me/?text=${encodeURIComponent(msg)}`;  
   window.open(url,'_blank');  
 }  
